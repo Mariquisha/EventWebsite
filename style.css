@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    font-size: 20px;
+    font-family: 'Forum', cursive;
+    z-index: 10;
+    position: absolute;
+    color: white;
+    width: 100%;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+li{
+    display: flex;
+    list-style-type: none;
+    display: inline;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Forum', cursive;
+    z-index: 10;
+}
+#videoContainer{
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    z-index: -100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+}
+#bigVideo{
+    object-fit: cover;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.overlay{
+    background-color: black;
+    width:640px;
+    min-height:370px;
+    
+}
+#logo{
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 65px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    z-index: 10;
+}
+#logoSmall{
+    font-family: 'Allura', cursive;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    z-index: 10;
+}
+#servicesTitle, #firstAboutUs{
+    background-color:rgb(238,230,219);
+    padding: 20px;
+}
+#servicesBig{
+    background-color:rgb(238,230,219);
+    display: flex;
+}
+.services{
+    margin-top: 80px;
+    display: flex;
+    display: inline;
+    font-family: 'Forum', cursive;
+    height: 350px;
+}
+button{
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Forum', cursive;
+    font-size: 17px;
+    background-color: black;
+    border-radius: 4px;
+    padding: 7px 7px;
+}
+button:hover{
+    background-color: rgb(112, 103, 99);
+    color: rgb(192, 178, 171);
+    cursor: pointer;
+}
+#aboutUsTitle{
+    background-color: rgb(241,241,241);
+}
+#aboutUs{
+    display: flex;
+    background-color: rgb(241,241,241);
+    justify-content: center;
+    height: 300px;
+    padding: 0px 40px;
+}
+.title, h3 {
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    padding: 30px 0px 0px;
+    margin: 0px;
+}
+#testimonialsTitle{
+    background-color:rgb(238,230,219);
+    margin: 0px;
+    padding: 0px;
+}
+#testimonials{
+    text-align: center;
+    height: 300px;
+    background-color:rgb(238,230,219);
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(192, 178, 171);
+    cursor: pointer;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+}
+#flaticon{
+    text-align: center;
+    font-size: 15px;
+}
+/*contact us page*/
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: 'Forum', cursive;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Forum', cursive;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+    font-family: 'Forum', cursive;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /*portfolio page*/
+  .portWeddingImg{
+      display: flex;
+      width: 400px;
+      height: 400px;
+      display: inline;
+      justify-content: center;
+  }
+  .portEventImg{
+    width: auto;
+    height: 400px;
+    display: inline;  
+  }
+  .portCustomImg{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    display: inline;
+    justify-content: center;
+  }
+/*About Us page*/
+    h1 p{
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+  }
+  .aboutUsTeam{
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .aboutUsTeam img{
+    display: inline;
+    width: 400px;
+    height: 500px;
+    vertical-align: middle;
+    padding-right: 20px;
+  }
+  .aboutUsTeam h3{
+    text-align: center;
+    width: 100%;
+  }
+  .aboutUsTeam p{
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    display: inline;
+    
+  }
+  h4{
+    text-align: center;
+    font-family: 'Forum';
+}
+  
+@media (min-width:374px) and (max-width: 600px) {
+    #servicesBig{
+        height: 1171px;
+        flex-direction: column;
+    }
+    #servicesBig img{
+        width: 90px;
+    }
+    .services{
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    #aboutUsTitle{
+        padding-top: 10px;
+    }
+    #aboutUs{
+        height: inherit;
+    }
+    ul{
+        padding-left: 0px;
+    }
+    .aboutUsTeam{
+        flex-direction: column;
+    }
+    h4{
+        text-align: center;
+        font-family: 'Forum';
+    }
+}
