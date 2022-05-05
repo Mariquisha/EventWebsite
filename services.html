@@ -9,20 +9,38 @@
     <title>Event Planning</title>
 </head>
 <body>
-    <nav>
-        <h1 id="logo">Soulful Creations</h1>
-        <h3 id="logoSmall">Event Planning & Design</h3>
-        <ul>
-            <li> <a href="index.html">Home</a></li>
-            <li> <a href="about.html">About</a></li>
-            <li> <a href="services.html">Services</a></li>
-            <li> <a href="portfolio.html">Portfolio</a></li>
-            <li> <a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="videoContainer" class="overlay">
-        <video autoplay loop muted poster type="video/mp4" id="bigVideo"  src="video/pexels-pavel-danilyuk-8775885.mp4">
-    </section>
+    <header>
+        <nav class="logo-image">
+            <h1 id="logo" >Soulful Creations</h1>
+            <h3 id="logoSmall">Event Planning & Design</h3>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="portfolio.html">Portfolio</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="logo-img" id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <section>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            </section>
+            <h1 id="logo" >Soulful Creations</h1>
+            <h3 id="logoSmall">Event Planning & Design</h3>
+            <ul class="mobile-menu">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="portfolio.html">Portfolio</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <section id="videoContainer" class="overlay">
+            <video autoplay loop muted poster type="video/mp4" id="bigVideo"  src="video/pexels-pavel-danilyuk-8775885.mp4">
+        </section>
+    </header>
     <section>
         <h1 class="title">The 3 Step Process</h1>
         <ol>
@@ -77,5 +95,6 @@
            <li>Contact</li>
        </ul>
    </footer>
+   <script src="script.js"></script>
 </body>
 </html>
