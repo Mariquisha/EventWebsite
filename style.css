@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 nav{
     font-size: 20px;
     font-family: 'Forum', cursive;
@@ -181,7 +183,7 @@ input[type=submit] {
     padding: 20px;
   }
 
-  /*portfolio page*/
+/*portfolio page*/
   .portWeddingImg{
       display: flex;
       width: 400px;
@@ -365,6 +367,13 @@ input[type=submit] {
     }
     h1{
         margin: 0px 40px 0px 40px;
+    }
+    .aboutUsTeam img{
+        width: auto;
+        height: 300px;
+    }
+    .aboutUsTeam p{
+        font-size: 17px;
     }
     footer{
         display: none;
